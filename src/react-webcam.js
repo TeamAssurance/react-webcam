@@ -86,6 +86,10 @@ export default class Webcam extends Component {
     }
   }
 
+  getVideo() {
+    return this.video;
+  }
+
   getScreenshot() {
     if (!this.state.hasUserMedia) return null;
 
